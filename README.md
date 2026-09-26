@@ -8,18 +8,22 @@ Shared test fixtures for [rpajarola/dedup](https://github.com/rpajarola/dedup), 
 - `large_testdata/*.textproto` — expected fingerprint values for each sample file, checked into
   this repo directly.
 - The actual sample media files are **not** stored in git history here (they're large binary
-  camera/video samples). Instead they're distributed as a tarball attached to a
-  [GitHub Release](https://github.com/rpajarola/dedup-testdata/releases) on this repo.
+  camera/video samples). Instead they're distributed as tarballs attached to a
+  [GitHub Release](https://github.com/rpajarola/dedup-testdata/releases) on this repo, split by
+  media type (`testdata-images.tar.gz`, `testdata-videos.tar.gz`, more to come as new test data
+  categories are added).
 
 ## Fetching the media files
 
-Download the latest release's `large_testdata.tar.gz` and extract it alongside the `.textproto`
-files in `large_testdata/`:
+Download the latest release's tarballs and extract them alongside the `.textproto` files in
+`large_testdata/`:
 
 ```sh
-curl -L -o large_testdata.tar.gz \
-  https://github.com/rpajarola/dedup-testdata/releases/latest/download/large_testdata.tar.gz
-tar -xzf large_testdata.tar.gz
+for asset in testdata-images testdata-videos; do
+  curl -L -o "$asset.tar.gz" \
+    "https://github.com/rpajarola/dedup-testdata/releases/latest/download/$asset.tar.gz"
+  tar -xzf "$asset.tar.gz"
+done
 ```
 
 The `fingerprint` package in the main repo does this automatically before running its tests.
