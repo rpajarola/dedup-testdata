@@ -634,3 +634,310 @@
   source_url: null  # unknown, from exiftools' regression test corpus
   type: sidecar
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '1x1#000000.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPad Air 5th Gen heic 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPad Air 5th Gen heic.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 11 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 11 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 11 dng 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 11 dng 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 12 Pro heic 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 12 Pro heic 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 4 B9AEA6B8FE2068118083C9A827F66721.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 7 AF4B4E28-9113-4656-BBEF-96F7CBC448CE heic.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 8 Plus 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 8 Plus 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 8 Plus dng 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Apple iPhone 8 Plus dng 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon EOS 500D 330149244 1752b77b422cfe7f97cb563f06b51c6e.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon EOS 60D 570303637 07F841A781C68B8736F3B32FE3AD8E52.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon EOS DIGITAL REBEL XSi 520116695 a24f0db7-9fc8-40b2-bbc2-9bc64758fb38.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon EOS-1D Mark II 237359 227906.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon PowerShot A570 IS imageuniqueid.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Canon PowerShot SX230 HS a0d2aa0209df07a36eb503a1e039ca22.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'FUJIFILM FinePix S1600 592D34383231100921DDE50UD53192 A2E226D6E903AC01C7FFD532D1394930.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Google Pixel 2 none 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Google Pixel 2 none.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON COOLPIX AW100 none.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON COOLPIX P1000 30001701 0.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON COOLPIX P1000 30001701 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON D300 3005346 1803.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON D300 3005346 1803_nef.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON D300 4085317 69139_nef.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON D3000 7400454 939.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'NIKON D300S 7400341 154.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'OLYMPUS E-PL1 B2Y517765 a30a9ea0-fefb-4af2-9ae3-0e8a4ad27af6.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'OLYMPUS FE230_X790 000K81K52510 fdfffa7f-c983-4093-a74f-e656616215fe.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Panasonic DMC-FZ28 7f050b14-53d6-4d30-9672-20e3a0f6ff94.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Panasonic DMC-LX5 F101104180107 none rw2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'RICOH Caplio R6 E28C28641A206811822AD273C1F9B4D6.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A6000 214302582 9_arw.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A6000 6CC282B869DD24459D027F4391356B1E xmp.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A6100 950007412 214_arw.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A7 III 27.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A7 III 9411 arw.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A7 III 9411.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A7s III 20221872 0.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY A7s III jpeg none 6d2a79cc-d7bf-416d-bdb4-643a667b1ef4.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY Alpha 77 II 7613018102 24260.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY Alpha 77 II 7613018102 24265.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY DSC-HX20V A373A5256D01F4A70AC98B3224836952.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY DSC-HX30V E98D7E10665FCE21467A13D385232CB3.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY DSC-W120 4F2F5344AE5360FA280CC70C2F7C5D6C.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY ILCA-77M2 DEF92186DF272963C04750273469F46C.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'SONY SLT-A77V 999839100 886.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Samsung Galaxy Nexus OAEL01 21080E7590649EE95C9E9C6F3C98B425.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Samsung SM-A326B heic 1.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Samsung SM-A326B heic 2.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Samsung SM-A326B heic 3.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Sony Ericsson C905 none.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Sony Ericsson K800i none.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'Sony Ericsson ST17i FAAB315EB2DA9C530FB5BF837EEB7DDA.jpg'
+  source_url: null  # unknown
+  type: placeholder
+  note: 1x1 pixel placeholder image with real camera EXIF grafted on via exiftool, for EXIF-only testing without real image data
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-noimage.tar.gz
+- filename: 'imgphash_cat_medium.jpg'
+  source_url: null  # unknown
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'imgphash_cat_sky.jpg'
+  source_url: null  # unknown
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'imgphash_cat_smiling.jpg'
+  source_url: null  # unknown
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
