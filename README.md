@@ -9,9 +9,9 @@ stays useful independent of any one project's test format.
 
 ## Layout
 
-- `sources.yaml` — per-file metadata (currently just source URL and media type) for every file
-  distributed here. `source_url: null` means the file predates this record and its origin
-  wasn't documented.
+- `sources.yaml` — per-file metadata for every file distributed here: `source_url` (where it was
+  downloaded from; `null` means the file predates this record and its origin wasn't documented),
+  `type` (image/video/sidecar), and `archive_url` (which release tarball contains it).
 - The media files themselves are **not** stored in git history here. Instead they're distributed
   as tarballs attached to a [GitHub Release](https://github.com/rpajarola/dedup-testdata/releases),
   split by media type (`testdata-images.tar.gz`, `testdata-videos.tar.gz`, more to come as new
