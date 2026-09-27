@@ -230,3 +230,407 @@
   source_url: https://img.photographyblog.com/reviews/sony_a7s_iii/photos/sony_a7s_iii_07.jpg
   type: image
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2004-01-11-22-45-15-sep-2004-01-11-22-45-15a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2006-08-03-16-29-38-sep-2006-08-03-16-29-38a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2006-11-11-19-17-56-sep-2006-11-11-19-17-56a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2006-12-10-23-58-20-sep-2006-12-10-23-58-20a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2006-12-17-07-09-14-sep-2006-12-17-07-09-14a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2006-12-21-15-55-26-sep-2006-12-21-15-55-26a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-01-01-12-00-00-sep-2007-01-01-12-00-00a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-01-17-21-49-44-sep-2007-01-17-21-49-44a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-02-02-18-13-29-sep-2007-02-02-18-13-29a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-05-02-17-02-21-sep-2007-05-02-17-02-21a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-05-12-08-19-07-sep-2007-05-12-08-19-07a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-05-26-04-49-45-sep-2007-05-26-04-49-45a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-05-30-14-28-01-sep-2007-05-30-14-28-01a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-06-06-16-15-25-sep-2007-06-06-16-15-25a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-06-26-10-13-04-sep-2007-06-26-10-13-04a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-07-13-17-02-30-sep-2007-07-13-17-02-30a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-08-15-14-42-46-sep-2007-08-15-14-42-46a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-08-24-02-40-42-sep-2007-08-24-02-40-42a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2007-11-07-11-40-44-sep-2007-11-07-11-40-44a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2008-06-02-10-03-57-sep-2008-06-02-10-03-57a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2008-06-06-13-29-29-sep-2008-06-06-13-29-29a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2008-06-17-01-21-30-sep-2008-06-17-01-21-30a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2008-09-02-17-43-48-sep-2008-09-02-17-43-48a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-03-26-09-23-20-sep-2009-03-26-09-23-20a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-04-11-03-01-38-sep-2009-04-11-03-01-38a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-04-23-07-21-35-sep-2009-04-23-07-21-35a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-06-11-19-23-18-sep-2009-06-11-19-23-18a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-06-20-07-59-05-sep-2009-06-20-07-59-05a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2009-08-05-08-11-31-sep-2009-08-05-08-11-31a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2010-06-08-04-44-24-sep-2010-06-08-04-44-24a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2010-09-02-08-43-02-sep-2010-09-02-08-43-02a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-01-24-22-06-02-sep-2011-01-24-22-06-02a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-03-07-09-28-03-sep-2011-03-07-09-28-03a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-05-07-13-02-49-sep-2011-05-07-13-02-49a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-08-07-19-22-57-sep-2011-08-07-19-22-57a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-10-28-17-50-18-sep-2011-10-28-17-50-18a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-10-28-18-25-43-sep-2011-10-28-18-25-43.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2011-11-18-15-38-34-sep-Photo11181538.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2012-06-02-10-12-28-sep-2012-06-02-10-12-28.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2012-09-21-22-07-34-sep-2012-09-21-22-07-34.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2012-12-19-21-38-40-sep-temple_square1.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2012-12-21-11-15-19-sep-IMG_0001.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2013-02-05-23-12-09-sep-DSCI0001.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2099-08-12-19-59-29-sep-2099-08-12-19-59-29a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: '2216-11-15-11-46-51-sep-2216-11-15-11-46-51a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Apple iPhone 4 B9AEA6B8FE2068118083C9A827F66721.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Apple iPhone 7 AF4B4E28-9113-4656-BBEF-96F7CBC448CE heic.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Canon EOS 500D 330149244 1752b77b422cfe7f97cb563f06b51c6e.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Canon EOS 60D 570303637 07F841A781C68B8736F3B32FE3AD8E52.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Canon EOS DIGITAL REBEL XSi 520116695 a24f0db7-9fc8-40b2-bbc2-9bc64758fb38.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Canon EOS-1D Mark II 237359 227906.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Canon PowerShot SX230 HS a0d2aa0209df07a36eb503a1e039ca22.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'corrupt/2010-06-20-20-07-39-sep-2010-06-20-20-07-39a.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  note: deliberately malformed EXIF, used to test parser robustness against infinite loops/huge tags/integer overflow
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'corrupt/huge_tag_exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  note: deliberately malformed EXIF, used to test parser robustness against infinite loops/huge tags/integer overflow
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'corrupt/infinite_loop_exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  note: deliberately malformed EXIF, used to test parser robustness against infinite loops/huge tags/integer overflow
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'corrupt/max_uint32_exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  note: deliberately malformed EXIF, used to test parser robustness against infinite loops/huge tags/integer overflow
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f1-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f2-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f3-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f4-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f5-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f6-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f7-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'f8-exif.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'FailedHash-NoDate-sep-remembory.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'FUJIFILM FinePix S1600 592D34383231100921DDE50UD53192 A2E226D6E903AC01C7FFD532D1394930.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'geodegrees_as_string.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'has-lens-info.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'iPad Air 5th gen 2.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON COOLPIX AW100 none.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON COOLPIX P1000 30001701 0.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON COOLPIX P1000 30001701 1.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON D300 3005346 1803.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON D300 3005346 1803_nef.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON D300 4085317 69139_nef.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON D3000 7400454 939.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'NIKON D300S 7400341 154.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'OLYMPUS E-PL1 B2Y517765 a30a9ea0-fefb-4af2-9ae3-0e8a4ad27af6.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'OLYMPUS FE230_X790 000K81K52510 fdfffa7f-c983-4093-a74f-e656616215fe.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Panasonic DMC-FZ28 7f050b14-53d6-4d30-9672-20e3a0f6ff94.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Panasonic DMC-LX5 F101104180107 none rw2.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'park.heic'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'raw.exif'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: raw-exif
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'RICOH Caplio R6 E28C28641A206811822AD273C1F9B4D6.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'sample1.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Samsung Galaxy Nexus OAEL01 21080E7590649EE95C9E9C6F3C98B425.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY A6000 214302582 9_arw.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY A6100 950007412 214_arw.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY A7s III 20221872 0.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY A7s III jpeg none 6d2a79cc-d7bf-416d-bdb4-643a667b1ef4.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY Alpha 77 II 7613018102 24260.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY Alpha 77 II 7613018102 24265.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY DSC-HX20V A373A5256D01F4A70AC98B3224836952.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY DSC-HX30V E98D7E10665FCE21467A13D385232CB3.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'SONY DSC-W120 4F2F5344AE5360FA280CC70C2F7C5D6C.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Sony Ericsson C905 none.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Sony Ericsson K800i none.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'Sony Ericsson ST17i FAAB315EB2DA9C530FB5BF837EEB7DDA.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'test.jpg'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: image
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'test.xmp'
+  source_url: null  # unknown, from exiftools' regression test corpus
+  type: sidecar
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
