@@ -1,0 +1,174 @@
+- filename: 'A7M3hSLI000100NR2D.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/sony-a7-iii/sony-a7-iiiA7.HTM
+  type: image
+- filename: 'Adobe Photoshop Lightroom.XMP'
+  source_url: null  # unknown, not documented in original README
+  type: sidecar
+- filename: 'BigBuckBunny.avi'
+  source_url: https://gist.github.com/Noctem/8f0388e4337e7e01343cc00be3c9a3e0
+  type: video
+- filename: 'BigBuckBunny.gif'
+  source_url: https://gist.github.com/Noctem/8f0388e4337e7e01343cc00be3c9a3e0
+  type: video
+- filename: 'BigBuckBunny.mp4'
+  source_url: https://gist.github.com/Noctem/8f0388e4337e7e01343cc00be3c9a3e0
+  type: video
+- filename: 'BigBuckBunny.ts'
+  source_url: https://gist.github.com/Noctem/8f0388e4337e7e01343cc00be3c9a3e0
+  type: video
+- filename: 'Canon PowerShot SX230.JPG'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Canon_EOS_R10_IMG_0683.CR3'
+  source_url: https://www.reddit.com/r/EditMyRaw/comments/1hnkonc/photo_edit_request_train_approaching_sunset/
+  type: image
+- filename: 'Canon_EOS_Rebel_T6_IMG_0501.CR2'
+  source_url: https://www.reddit.com/r/EditMyRaw/comments/1hozlze/does_anyone_have_raw_car_photos/
+  type: image
+- filename: 'D300hSLI0100.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/D300/FULLRES/D300hSLI0100.HTM
+  type: image
+- filename: 'D300hSLI0100.NEF'
+  source_url: https://www.imaging-resource.com/PRODS/D300/D300RAWINDEX.HTM
+  type: image
+- filename: 'IPHON8PLUShSLI0020NRD-IMG_0218.dng'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-8-plus/apple-iphone-8-plusA7.HTM
+  type: image
+- filename: 'IPHON8PLUShSLI0020NRD-IMG_0218.jpeg'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-8-plus/apple-iphone-8-plusA7.HTM
+  type: image
+- filename: 'IPHON8PLUShSLI0040NRD-IMG_0219.dng'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-8-plus/apple-iphone-8-plusA7.HTM
+  type: image
+- filename: 'IPHON8PLUShSLI0040NRD-IMG_0219.jpeg'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-8-plus/apple-iphone-8-plusA7.HTM
+  type: image
+- filename: 'IPHONE11hSLI0032NRD.dng'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-11/apple-iphone-11A7.HTM
+  type: image
+- filename: 'IPHONE11hSLI0032NRD.jpg'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-11/apple-iphone-11A7.HTM
+  type: image
+- filename: 'IPHONE11hSLI0064NRD.dng'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-11/apple-iphone-11A7.HTM
+  type: image
+- filename: 'IPHONE11hSLI0064NRD.jpg'
+  source_url: https://www.imaging-resource.com/PRODS/apple-iphone-11/apple-iphone-11A7.HTM
+  type: image
+- filename: 'NIKON D300 4085317 69139.NEF'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Nikon D3000 2539678715.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/9327928709/nikon-d3000-review-samples/2671536745
+  type: image
+- filename: 'Nikon D300S 2918764486.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/7467262937/nikon-d300s-review-samples
+  type: image
+- filename: 'P1000INBAP0.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/nikon-p1000/FULLRES/P1000hSLI0100NR2D.HTM
+  type: image
+- filename: 'P1000hSLI0100NR2D.jpeg'
+  source_url: https://www.imaging-resource.com/PRODS/nikon-p1000/FULLRES/P1000hSLI0100NR2D.HTM
+  type: image
+- filename: 'PXL_20240818_015751859.RAW-01.COVER.dng'
+  source_url: https://www.dpreview.com/sample-galleries/7614427312/google-pixel-9-pro-and-pro-xl-sample-gallery/0780777681
+  type: image
+- filename: 'PXL_20240818_015751859.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/7614427312/google-pixel-9-pro-and-pro-xl-sample-gallery/0780777681
+  type: image
+- filename: 'SONY ILCE-6000 214302582 9.ARW'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Sony A6100 4078921458.arw'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Sony A6100 4078921458.jpg'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Sony A77 2416501744.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/8239405197/sony-a77-ii-real-world-samples/2416501744
+  type: image
+- filename: 'Sony A77 III 6912738029.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/8239405197/sony-a77-ii-real-world-samples/2416501744
+  type: image
+- filename: 'Sony Ericsson C905.JPG'
+  source_url: null  # unknown, not documented in original README
+  type: image
+- filename: 'Y-DP-105mm-9411.ARW'
+  source_url: https://www.imaging-resource.com/PRODS/sony-a7-iii/sony-a7-iiiA7.HTM
+  type: image
+- filename: 'Y-DP-105mm-9411.jpeg'
+  source_url: https://www.imaging-resource.com/PRODS/sony-a7-iii/sony-a7-iiiA7.HTM
+  type: image
+- filename: 'Y-GooglePixel2-PortraitMode-005.jpg'
+  source_url: https://www.imaging-resource.com/PRODS/google-pixel-2/google-pixel-2GALLERY.HTM
+  type: image
+- filename: 'Y-GooglePixel2-PortraitMode-014.jpg'
+  source_url: https://www.imaging-resource.com/PRODS/google-pixel-2/google-pixel-2GALLERY.HTM
+  type: image
+- filename: 'YDSC00059.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/AA77/FULLRES/YDSC00059.HTM
+  type: image
+- filename: 'YDSC01923-MFNR_HIGH.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/sony-a77-ii/FULLRES/YDSC01923-MFNR_HIGH.HTM
+  type: image
+- filename: 'YDSC01924-MFNR_LOW.JPG'
+  source_url: https://www.imaging-resource.com/PRODS/sony-a77-ii/FULLRES/YDSC01923-MFNR_HIGH.HTM
+  type: image
+- filename: 'computerchess5.flv'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: video
+- filename: 'druid_peak_trailer_2014.mp4'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: video
+- filename: 'heic.digital Samsung Galaxy A32 1.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital Samsung Galaxy A32 2.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital Samsung Galaxy A32 3.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital iPad Air 5th gen 1.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital iPad Air 5th gen 2.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital iPhone 12 Pro 1.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'heic.digital iPhone 12 Pro 2.heic'
+  source_url: https://heic.digital/samples/
+  type: image
+- filename: 'iPhone15ProMax-0003-tele-5x.dng'
+  source_url: https://www.dpreview.com/sample-galleries/6852827640/iphone-15-pro-max-camera-sample-gallery/7171718529
+  type: image
+- filename: 'iPhone15ProMax-0003-tele-5x.jpg'
+  source_url: https://www.dpreview.com/sample-galleries/6852827640/iphone-15-pro-max-camera-sample-gallery/7171718529
+  type: image
+- filename: 'sample_1280x720.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sample_1920x1080.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sample_2560x1440.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sample_3840x2160.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sample_640x360.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sample_960x540.avi'
+  source_url: https://filesamples.com/formats/avi
+  type: video
+- filename: 'sony_a7s_iii_07.arw'
+  source_url: https://img.photographyblog.com/reviews/sony_a7s_iii/photos/sony_a7s_iii_07.arw
+  type: image
+- filename: 'sony_a7s_iii_07.jpg'
+  source_url: https://img.photographyblog.com/reviews/sony_a7s_iii/photos/sony_a7s_iii_07.jpg
+  type: image

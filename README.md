@@ -1,22 +1,25 @@
 # dedup-testdata
 
-Shared test fixtures for [rpajarola/dedup](https://github.com/rpajarola/dedup), specifically the
-`fingerprint` package's larger sample photos/videos (camera JPEGs, RAW files, video clips).
+Shared sample media (camera JPEGs, RAW files, video clips) used as test fixtures by
+[rpajarola/dedup](https://github.com/rpajarola/dedup), specifically its `fingerprint` package.
+
+The expected-fingerprint test cases themselves (`.textproto` files) live only in the main
+`dedup` repo, not here — this repo just holds the media and generic metadata about it, so it
+stays useful independent of any one project's test format.
 
 ## Layout
 
-- `large_testdata/*.textproto` — expected fingerprint values for each sample file, checked into
-  this repo directly.
-- The actual sample media files are **not** stored in git history here (they're large binary
-  camera/video samples). Instead they're distributed as tarballs attached to a
-  [GitHub Release](https://github.com/rpajarola/dedup-testdata/releases) on this repo, split by
-  media type (`testdata-images.tar.gz`, `testdata-videos.tar.gz`, more to come as new test data
-  categories are added).
+- `sources.yaml` — per-file metadata (currently just source URL and media type) for every file
+  distributed here. `source_url: null` means the file predates this record and its origin
+  wasn't documented.
+- The media files themselves are **not** stored in git history here. Instead they're distributed
+  as tarballs attached to a [GitHub Release](https://github.com/rpajarola/dedup-testdata/releases),
+  split by media type (`testdata-images.tar.gz`, `testdata-videos.tar.gz`, more to come as new
+  test data categories are added).
 
 ## Fetching the media files
 
-Download the latest release's tarballs and extract them alongside the `.textproto` files in
-`large_testdata/`:
+Download the latest release's tarballs and extract them:
 
 ```sh
 for asset in testdata-images testdata-videos; do
@@ -26,4 +29,5 @@ for asset in testdata-images testdata-videos; do
 done
 ```
 
-The `fingerprint` package in the main repo does this automatically before running its tests.
+The `fingerprint` package in the main `dedup` repo does this automatically before running its
+tests.
