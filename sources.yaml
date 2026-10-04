@@ -944,22 +944,18 @@
 - filename: '0384352929.pef'
   source_url: https://www.dpreview.com/sample-galleries/8034986469/596198
   type: image
-  note: no thumbnail/phash extraction support yet (PEF/Pentax RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '0495277519.orf'
   source_url: https://www.dpreview.com/sample-galleries/8542947609/599463
   type: image
-  note: no thumbnail/phash extraction support yet (ORF/Olympus RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '0871315466.raf'
   source_url: https://www.dpreview.com/sample-galleries/2515724743/640650
   type: image
-  note: no thumbnail/phash extraction support yet (RAF/Fujifilm RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '0947521550.pef'
   source_url: https://www.dpreview.com/sample-galleries/8034986469/596198
   type: image
-  note: no thumbnail/phash extraction support yet (PEF/Pentax RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '2766622522.jpg'
   source_url: https://www.dpreview.com/sample-galleries/2515724743/640650
@@ -992,7 +988,6 @@
 - filename: '4853011546.raf'
   source_url: https://www.dpreview.com/sample-galleries/2515724743/640650
   type: image
-  note: no thumbnail/phash extraction support yet (RAF/Fujifilm RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '5905682185.jpg'
   source_url: https://www.dpreview.com/sample-galleries/4660266261/646297
@@ -1005,12 +1000,10 @@
 - filename: '8627580922.rw2'
   source_url: https://www.dpreview.com/sample-galleries/0107841691/609322
   type: image
-  note: no thumbnail/phash extraction support yet (RW2/Panasonic RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '8672627456.rw2'
   source_url: https://www.dpreview.com/sample-galleries/0107841691/609322
   type: image
-  note: no thumbnail/phash extraction support yet (RW2/Panasonic RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '9054006955.jpg'
   source_url: https://www.dpreview.com/sample-galleries/8034986469/596198
@@ -1019,7 +1012,6 @@
 - filename: '9149077137.orf'
   source_url: https://www.dpreview.com/sample-galleries/8542947609/599463
   type: image
-  note: no thumbnail/phash extraction support yet (ORF/Olympus RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: '9153575832.jpg'
   source_url: https://www.dpreview.com/sample-galleries/0107841691/609322
@@ -1076,7 +1068,6 @@
 - filename: 'fujifilm_x_t30_iii_03.raf'
   source_url: https://www.photographyblog.com/reviews/fujifilm_x_t30_iii_review
   type: image
-  note: no thumbnail/phash extraction support yet (RAF/Fujifilm RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'fujifilm_x_t30_iii_04.jpg'
   source_url: https://www.photographyblog.com/reviews/fujifilm_x_t30_iii_review
@@ -1085,7 +1076,6 @@
 - filename: 'fujifilm_x_t30_iii_04.raf'
   source_url: https://www.photographyblog.com/reviews/fujifilm_x_t30_iii_review
   type: image
-  note: no thumbnail/phash extraction support yet (RAF/Fujifilm RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'google_pixel_5_01.dng'
   source_url: https://www.photographyblog.com/reviews/google_pixel_5_review
@@ -1134,7 +1124,6 @@
 - filename: 'om_system_om_5_mark_ii_01.orf'
   source_url: https://www.photographyblog.com/reviews/om_system_om_5_mark_ii_review
   type: image
-  note: no thumbnail/phash extraction support yet (ORF/Olympus RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'om_system_om_5_mark_ii_02.jpg'
   source_url: https://www.photographyblog.com/reviews/om_system_om_5_mark_ii_review
@@ -1143,7 +1132,6 @@
 - filename: 'om_system_om_5_mark_ii_02.orf'
   source_url: https://www.photographyblog.com/reviews/om_system_om_5_mark_ii_review
   type: image
-  note: no thumbnail/phash extraction support yet (ORF/Olympus RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'P1010009.jpeg'
   source_url: https://www.photographyblog.com/pages/reviews/reviews_olympus_400_digital_6.php
@@ -1188,7 +1176,6 @@
 - filename: 'sigma_dp2_quattro_01.x3f'
   source_url: https://www.photographyblog.com/previews/sigma_dp2_quattro_photos
   type: image
-  note: no thumbnail/phash extraction support yet (X3F/Sigma Foveon RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'sigma_dp2_quattro_02.jpg'
   source_url: https://www.photographyblog.com/previews/sigma_dp2_quattro_photos
@@ -1197,7 +1184,6 @@
 - filename: 'sigma_dp2_quattro_02.x3f'
   source_url: https://www.photographyblog.com/previews/sigma_dp2_quattro_photos
   type: image
-  note: no thumbnail/phash extraction support yet (X3F/Sigma Foveon RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'sigma_dp2_quattro_03.jpg'
   source_url: https://www.photographyblog.com/previews/sigma_dp2_quattro_photos
@@ -1206,7 +1192,6 @@
 - filename: 'sigma_dp2_quattro_03.x3f'
   source_url: https://www.photographyblog.com/previews/sigma_dp2_quattro_photos
   type: image
-  note: no thumbnail/phash extraction support yet (X3F/Sigma Foveon RAW container not parsed by fingerprint pipeline)
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
 - filename: 'sony_cybershot_dsc_tx5_01.mp4'
   source_url: https://www.photographyblog.com/reviews/sony_cybershot_dsc_tx5_review
