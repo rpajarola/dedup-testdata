@@ -154,6 +154,76 @@
   source_url: https://www.imaging-resource.com/PRODS/sony-a77-ii/FULLRES/YDSC01923-MFNR_HIGH.HTM
   type: image
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-images.tar.gz
+- filename: 'archive_manual.txt.gz'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/docs/manual.txt compressed on its own with gzip -9."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_manual.txt.xz'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/docs/manual.txt compressed on its own with xz."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj.rar'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with rar a -r (non-solid)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj.tar.zst'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with tar | zstd."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj.zip'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with zip -rX."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_dotslash.tar.gz'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/'s contents packed with tar -C proj -czf ., i.e. with a ./ prefix."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_modified.zip'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ with a line appended to docs/manual.txt, packed with zip -rX without a common directory (must NOT match the others)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_nfd.zip'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with Python's zipfile, file names converted to Unicode NFD (as some macOS tools write them)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_noprefix.tar.bz2'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/'s top-level directories packed with tar -cjf, without a common directory."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_renamed.zip'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ with src/util.c renamed to src/helpers.c, packed with zip -rX without a common directory."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_solid.7z'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with 7zz a -mx=9 -ms=on (solid)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_solid.rar'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ packed with rar a -r -s (solid); currently unreadable by rardecode (nwaples/rardecode#70) because proj/ contains an empty file."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_versioned.tar.xz'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ copied to proj-1.0/ and packed with tar -cJf."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
+- filename: 'archive_proj_with_noise.zip'
+  source_url: null  # synthetic, generated for dedup's ArchiveFingerprinter
+  type: archive
+  note: "Synthetic test archive. All archive_proj* files contain (variants of) the same small generated tree proj/ (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); proj/ inside proj-release/ alongside README.txt, FILE_ID.DIZ, proj.nfo, SHA256SUMS, __MACOSX/ and .DS_Store clutter, packed with zip -rX."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-archives.tar.gz
 - filename: 'computerchess5.flv'
   source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
   type: video
