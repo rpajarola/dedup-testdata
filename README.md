@@ -1,6 +1,6 @@
 # dedup-testdata
 
-Shared sample media (camera JPEGs, RAW files, video clips) used as test fixtures by
+Shared sample media (camera JPEGs, RAW files, video clips, audio) used as test fixtures by
 [rpajarola/dedup](https://github.com/rpajarola/dedup) (`fingerprint` package) and
 [rpajarola/exiftools](https://github.com/rpajarola/exiftools).
 
@@ -12,7 +12,7 @@ about it, so it stays useful independent of any one project's test format.
 
 - `sources.yaml` — per-file metadata for every file distributed here: `source_url` (where it was
   downloaded from; `null` means the file predates this record and its origin wasn't documented),
-  `type` (image/video/sidecar/raw-exif/placeholder), `archive_url` (which release tarball
+  `type` (image/video/audio/sidecar/raw-exif/placeholder), `archive_url` (which release tarball
   contains it), and an optional `note` for anything non-obvious (e.g. deliberately corrupted
   fixtures, or synthetic placeholders).
 - The media files themselves are **not** stored in git history here. Instead they're distributed
@@ -21,6 +21,7 @@ about it, so it stays useful independent of any one project's test format.
   - `testdata-images.tar.gz` — real photos/RAW files (one subdirectory, `corrupt/`, containing
     intentionally malformed files used to test parser error handling; everything else is flat).
   - `testdata-videos.tar.gz` — video clips.
+  - `testdata-audio.tar.gz` — audio-only files.
   - `testdata-noimage.tar.gz` — 1x1 pixel placeholder JPEGs with real camera EXIF grafted on via
     `exiftool`, for testing EXIF/metadata extraction without needing real image data.
 
@@ -29,7 +30,7 @@ about it, so it stays useful independent of any one project's test format.
 Download the latest release's tarballs and extract them:
 
 ```sh
-for asset in testdata-images testdata-videos testdata-noimage; do
+for asset in testdata-images testdata-videos testdata-audio testdata-noimage; do
   curl -L -o "$asset.tar.gz" \
     "https://github.com/rpajarola/dedup-testdata/releases/latest/download/$asset.tar.gz"
   tar -xzf "$asset.tar.gz"

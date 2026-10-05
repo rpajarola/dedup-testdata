@@ -162,6 +162,26 @@
   source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
   type: video
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-videos.tar.gz
+- filename: 'druid_peak_trailer_2014_audio.flac'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: audio
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-audio.tar.gz
+  note: soundtrack of druid_peak_trailer_2014.mp4 re-encoded to FLAC with ffmpeg (-vn -map_metadata -1 -fflags +bitexact -flags:a +bitexact)
+- filename: 'druid_peak_trailer_2014_audio.m4a'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: audio
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-audio.tar.gz
+  note: soundtrack of druid_peak_trailer_2014.mp4 re-encoded to AAC with ffmpeg (-vn -map_metadata -1 -fflags +bitexact -flags:a +bitexact)
+- filename: 'druid_peak_trailer_2014_audio.mp3'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: audio
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-audio.tar.gz
+  note: soundtrack of druid_peak_trailer_2014.mp4 re-encoded to MP3 with ffmpeg (-vn -map_metadata -1 -fflags +bitexact -flags:a +bitexact)
+- filename: 'druid_peak_trailer_2014_audio.opus'
+  source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
+  type: audio
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-audio.tar.gz
+  note: soundtrack of druid_peak_trailer_2014.mp4 re-encoded to Opus with ffmpeg (-vn -map_metadata -1 -fflags +bitexact -flags:a +bitexact)
 - filename: 'heic.digital Samsung Galaxy A32 1.heic'
   source_url: https://heic.digital/samples/
   type: image
