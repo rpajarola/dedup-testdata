@@ -1285,6 +1285,71 @@
   source_url: https://www.photographyblog.com/reviews/google_pixel_5_review
   type: video
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-videos.tar.gz
+- filename: 'retro_proj.d64'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); C64 1541 D64 (35 tracks), made with VICE c1541 (-format, -write); flat, so files are stored by base name."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_dos2dd.atr'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Atari 8-bit 180K double density (256-byte sectors) ATR with Atari DOS 2, made with atrcopy (create dos2dd.atr, add) in a different order."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_dos2ed.atr'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Atari 8-bit 130K enhanced density ATR with Atari DOS 2.5 VTOC, made with atrcopy (create dos2ed.atr, add) in a different order."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_dos2sd.atr'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Atari 8-bit 90K single density ATR with Atari DOS 2, made with atrcopy (create dos2sd.atr, add); atrcopy writes empty.dat as a 0-sector entry."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_dos33.dsk'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Apple II 140K DOS 3.3 disk in DOS sector order, made with AppleCommander 13.2 (-dos140, -p NAME BIN 0x2000); BLOB.BIN's 16-bit length field overflows to 0."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_dos33.po'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); same as retro_proj_dos33.dsk but in ProDOS sector order (AppleCommander picks the order from the extension)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_errorbytes.d64'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); retro_proj.d64 with 683 trailing error bytes (0x01 = no error) appended."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_ffs.adf'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Amiga 880K ADF, FFS (DOS1), volume name Other, files written in a different order, made with amitools xdftool."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_ffs_intl_dc.adf'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Amiga 880K ADF, FFS+INTL+DIRCACHE (DOS5), with an extra proj/ wrapper directory, made with amitools xdftool."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_ofs.adf'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Amiga 880K ADF, OFS (DOS0), made with amitools xdftool (format ofs, makedir, write)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_prodos.dsk'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); same as retro_proj_prodos.po but in DOS sector order."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_prodos.po'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); Apple II 140K ProDOS disk in ProDOS sector order with SRC/DOCS/DATA subdirectories, made with AppleCommander 13.2 (-pro140, -p DIR/NAME BIN 0x2000)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
+- filename: 'retro_proj_reordered.d64'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic retro disk image holding the same files as the archive_proj* fixtures (src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); C64 1541 D64 with a different disk name/ID and write order, made with VICE c1541."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-retrodisks.tar.gz
 - filename: 'ricoh_gr_digital_ii_01.dng'
   source_url: https://www.photographyblog.com/pages/reviews/reviews_ricoh_gr_digital_ii_3.php
   type: image

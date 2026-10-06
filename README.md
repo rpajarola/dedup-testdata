@@ -26,6 +26,8 @@ about it, so it stays useful independent of any one project's test format.
     the same small file tree).
   - `testdata-diskimages.tar.gz` — disk images (synthetic: ISO, FAT, ext4, squashfs, MBR/GPT
     variants of the same small file tree as the archives).
+  - `testdata-retrodisks.tar.gz` — retro computer disk images (synthetic: Amiga ADF, C64 D64,
+    Apple II DOS 3.3/ProDOS, Atari ATR versions of the same file tree).
   - `testdata-noimage.tar.gz` — 1x1 pixel placeholder JPEGs with real camera EXIF grafted on via
     `exiftool`, for testing EXIF/metadata extraction without needing real image data.
 
@@ -34,7 +36,7 @@ about it, so it stays useful independent of any one project's test format.
 Download the latest release's tarballs and extract them:
 
 ```sh
-for asset in testdata-images testdata-videos testdata-audio testdata-archives testdata-diskimages testdata-noimage; do
+for asset in testdata-images testdata-videos testdata-audio testdata-archives testdata-diskimages testdata-retrodisks testdata-noimage; do
   curl -L -o "$asset.tar.gz" \
     "https://github.com/rpajarola/dedup-testdata/releases/latest/download/$asset.tar.gz"
   tar -xzf "$asset.tar.gz"
