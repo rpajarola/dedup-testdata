@@ -228,6 +228,56 @@
   source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
   type: video
   archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-videos.tar.gz
+- filename: 'disk_proj.squashfs'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); squashfs (gzip) made with mksquashfs proj -all-root."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_ext4.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 4 MiB ext4 filesystem without a partition table, made with mke2fs -t ext4 -d proj."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_fat16.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 8 MiB FAT16 superfloppy (no partition table) made with mtools (mformat -c 1, mcopy -s); café.txt is stored as a lowercase-flagged CP437 8.3 short name."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_fat32.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 8 MiB FAT32 superfloppy made with mtools (mformat -F, mcopy -s)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_floppy.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 1.44 MB FAT12 floppy image made with mtools (mformat -f 1440, mcopy -s)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_gpt.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 16 MiB GPT disk (sgdisk) with an empty FAT EFI partition (mkfs.vfat --offset) and an ext4 partition containing proj (mke2fs -d -E offset=...)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_joliet.iso'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); ISO 9660 with Joliet but no Rock Ridge (xorriso -as mkisofs -J)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_mbr.img'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); 8 MiB MBR disk (sfdisk) with one ext4 partition containing proj (mke2fs -d -E offset=...)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_plain.iso'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); plain ISO 9660 without Rock Ridge or Joliet, i.e. uppercase 8.3 names (xorriso -rockridge off -joliet off)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
+- filename: 'disk_proj_rockridge.iso'
+  source_url: null  # synthetic, generated for dedup's DiskImageFingerprinter
+  type: disk-image
+  note: "Synthetic test disk image containing the same generated tree as the archive_proj* fixtures (proj/: src/main.c, src/util.c, src/README, docs/manual.txt, docs/café.txt, data/blob.bin, data/empty.dat); ISO 9660 with Rock Ridge and Joliet (xorriso -as mkisofs -R -J)."
+  archive_url: https://github.com/rpajarola/dedup-testdata/releases/latest/download/testdata-diskimages.tar.gz
 - filename: 'druid_peak_trailer_2014.mp4'
   source_url: https://scienceandfilm.org/uploads/videos/files/?C=M;O=A
   type: video
